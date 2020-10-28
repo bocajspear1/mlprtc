@@ -1,0 +1,9 @@
+{
+    "database_host": "localhost",
+    "database_user": "mlprtc",
+    "database_password": "medicaldata",
+    "database_name": "mlprtc",
+    "admin_username": "admin",
+    "admin_password": "admin",
+    "upload_dir": "uploads"
+}
