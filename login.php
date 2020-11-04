@@ -15,7 +15,7 @@ if (array_key_exists('username', $_POST) && array_key_exists('password', $_POST)
         $_SESSION['logged_in'] = true;
         $_SESSION['username'] = $username;
         $_SESSION['usertype'] = "admin";
-        $_SESSION['usertype'] = 0;
+        $_SESSION['patient_id'] = 0;
     } else {
         $query = "SELECT * FROM users WHERE username='$username' AND password='$password'";
 
